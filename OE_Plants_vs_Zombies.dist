@@ -1,0 +1,25 @@
+# Distribution file for the Example project.
+# http://www.openengine.dk/wiki/Projects/OE_Plants_vs_Zombies
+
+# main repository
+darcs / http://openengine.dk/code/openengine
+darcs-dev / fh.daimi.au.dk:/users/cgd/code/openengine
+
+# project repository
+# (uncomment the following two lines after uploading your project)
+darcs /projects/OE_Plants_vs_Zombies        http://openengine.dk/code/projects/OE_Plants_vs_Zombies
+darcs-dev /projects/OE_Plants_vs_Zombies    fh.daimi.au.dk:/users/cgd/code/projects/OE_Plants_vs_Zombies
+
+dist /extensions/ActionMappers/ActionMappers.dist       http://openengine.dk/code/extensions/ActionMappers/ActionMappers.dist
+dist /extensions/CairoResource/CairoResource.dist       http://openengine.dk/code/extensions/CairoResource/CairoResource.dist
+dist /extensions/GenericHandlers/GenericHandlers.dist   http://openengine.dk/code/extensions/GenericHandlers/GenericHandlers.dist
+dist /extensions/MeshUtils/MeshUtils.dist               http://openengine.dk/code/extensions/MeshUtils/MeshUtils.dist
+dist /extensions/OBJResource/OBJResource.dist           http://openengine.dk/code/extensions/OBJResource/OBJResource.dist
+dist /extensions/OpenGLRenderer/OpenGLRenderer.dist     http://openengine.dk/code/extensions/OpenGLRenderer/OpenGLRenderer.dist
+dist /extensions/OpenGLSelection/OpenGLSelection.dist   http://openengine.dk/code/extensions/OpenGLSelection/OpenGLSelection.dist
+dist /extensions/SDL/SDL.dist                           http://openengine.dk/code/extensions/SDL/SDL.dist
+dist /extensions/SDLImage/SDLImage.dist                 http://openengine.dk/code/extensions/SDLImage/SDLImage.dist
+dist /extensions/SetupHelpers/SetupHelpers.dist         http://openengine.dk/code/extensions/SetupHelpers/SetupHelpers.dist
+dist /extensions/TGAResource/TGAResource.dist           http://openengine.dk/code/extensions/TGAResource/TGAResource.dist
+dist /extensions/TexUtils/TexUtils.dist                 http://openengine.dk/code/extensions/TexUtils/TexUtils.dist
+
