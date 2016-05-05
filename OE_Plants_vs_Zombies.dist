@@ -2,24 +2,24 @@
 # http://www.openengine.dk/wiki/Projects/OE_Plants_vs_Zombies
 
 # main repository
-darcs / http://openengine.dk/code/openengine
-darcs-dev / fh.daimi.au.dk:/users/cgd/code/openengine
+git / https://github.com/OpenEngineDK/openengine.git
+git-dev / git@github.com:OpenEngineDK/openengine.git
 
 # project repository
 # (uncomment the following two lines after uploading your project)
-darcs /projects/OE_Plants_vs_Zombies        http://openengine.dk/code/projects/OE_Plants_vs_Zombies
-darcs-dev /projects/OE_Plants_vs_Zombies    fh.daimi.au.dk:/users/cgd/code/projects/OE_Plants_vs_Zombies
+git /projects/OE_Plants_vs_Zombies        https://github.com/OpenEngineDK/projects-OE_Plants_vs_Zombies.git
+git-dev /projects/OE_Plants_vs_Zombies    git@github.com:OpenEngineDK/projects-OE_Plants_vs_Zombies.git
 
-dist /extensions/ActionMappers/ActionMappers.dist       http://openengine.dk/code/extensions/ActionMappers/ActionMappers.dist
-dist /extensions/CairoResource/CairoResource.dist       http://openengine.dk/code/extensions/CairoResource/CairoResource.dist
-dist /extensions/GenericHandlers/GenericHandlers.dist   http://openengine.dk/code/extensions/GenericHandlers/GenericHandlers.dist
-dist /extensions/MeshUtils/MeshUtils.dist               http://openengine.dk/code/extensions/MeshUtils/MeshUtils.dist
-dist /extensions/OBJResource/OBJResource.dist           http://openengine.dk/code/extensions/OBJResource/OBJResource.dist
-dist /extensions/OpenGLRenderer/OpenGLRenderer.dist     http://openengine.dk/code/extensions/OpenGLRenderer/OpenGLRenderer.dist
-dist /extensions/OpenGLSelection/OpenGLSelection.dist   http://openengine.dk/code/extensions/OpenGLSelection/OpenGLSelection.dist
-dist /extensions/SDL/SDL.dist                           http://openengine.dk/code/extensions/SDL/SDL.dist
-dist /extensions/SDLImage/SDLImage.dist                 http://openengine.dk/code/extensions/SDLImage/SDLImage.dist
-dist /extensions/SetupHelpers/SetupHelpers.dist         http://openengine.dk/code/extensions/SetupHelpers/SetupHelpers.dist
-dist /extensions/TGAResource/TGAResource.dist           http://openengine.dk/code/extensions/TGAResource/TGAResource.dist
-dist /extensions/TexUtils/TexUtils.dist                 http://openengine.dk/code/extensions/TexUtils/TexUtils.dist
+dist /extensions/ActionMappers/ActionMappers.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-ActionMappers/master/ActionMappers.dist
+dist /extensions/CairoResource/CairoResource.dist       https://raw.githubusercontent.com/OpenEngineDK/extensions-CairoResource/master/CairoResource.dist
+dist /extensions/GenericHandlers/GenericHandlers.dist   https://raw.githubusercontent.com/OpenEngineDK/extensions-GenericHandlers/master/GenericHandlers.dist
+dist /extensions/MeshUtils/MeshUtils.dist               https://raw.githubusercontent.com/OpenEngineDK/extensions-MeshUtils/master/MeshUtils.dist
+dist /extensions/OBJResource/OBJResource.dist           https://raw.githubusercontent.com/OpenEngineDK/extensions-OBJResource/master/OBJResource.dist
+dist /extensions/OpenGLRenderer/OpenGLRenderer.dist     https://raw.githubusercontent.com/OpenEngineDK/extensions-OpenGLRenderer/master/OpenGLRenderer.dist
+dist /extensions/OpenGLSelection/OpenGLSelection.dist   https://raw.githubusercontent.com/OpenEngineDK/extensions-OpenGLSelection/master/OpenGLSelection.dist
+dist /extensions/SDL/SDL.dist                           https://raw.githubusercontent.com/OpenEngineDK/extensions-SDL/master/SDL.dist
+dist /extensions/SDLImage/SDLImage.dist                 https://raw.githubusercontent.com/OpenEngineDK/extensions-SDLImage/master/SDLImage.dist
+dist /extensions/SetupHelpers/SetupHelpers.dist         https://raw.githubusercontent.com/OpenEngineDK/extensions-SetupHelpers/master/SetupHelpers.dist
+dist /extensions/TGAResource/TGAResource.dist           https://raw.githubusercontent.com/OpenEngineDK/extensions-TGAResource/master/TGAResource.dist
+dist /extensions/TexUtils/TexUtils.dist                 https://raw.githubusercontent.com/OpenEngineDK/extensions-TexUtils/master/TexUtils.dist
 
